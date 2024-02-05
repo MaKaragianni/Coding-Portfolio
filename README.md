@@ -7,10 +7,7 @@ Projects
 1. UniBuddy Chatbox Program
 This is a chatbot program named "UniBuddy," designed to assist university freshmen. It interacts with users, collecting information such as name, favorite color, age, and country. The bot provides personalized responses and can answer predefined questions about various university-related topics like sports, student support, libraries, restaurants, and clubs. This project demonstrates my skills in creating user-interactive applications in Python.
 
-2. Date Format Conversion Program
-A Python program that converts user-inputted dates into a standardized format (YYYY-MM-DD). It showcases my ability to manipulate strings and dates in Python, providing a user-friendly interface for date conversion tasks.
-
-3. Library Database System
+2. Library Database System
 This project is an enhanced library management system implemented in Python, utilizing SQLite3 for database management. It includes features for managing users and books, tracking borrowing and returns, and ensuring efficient data handling. This application demonstrates my proficiency in database management and object-oriented programming.
 
 Skills and Technologies
