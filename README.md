@@ -18,7 +18,7 @@ This is a Jupyter notebook that performs regression analysis on insurance data (
 5. Simple Linear Regression:
 This notebook demonstrates a simple linear regression model to predict how the salary would change based on years of experience (using salary_data.csv) to showcase data analysis and modeling with Python and Scikit-Learn.
 
-6. Life Expectancy Model
+6. Life Expectancy Model:
 This notebook analyses the data in the file life_expectancy_data.csv, employing data manipulation and visualisation techniques, and predictive modeling with Python. 
 
 I am always eager to learn and grow, and I hope this portfolio provides a glimpse into my coding journey and capabilities.
