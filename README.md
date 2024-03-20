@@ -107,7 +107,7 @@ python Library_database.py<br>
   - pip install textblob
   - python -m textblob.download_corpora
   - python -m spacy download en_core_web_lg<br>
-  - Run the script with Python:<br>
+- Run the script with Python:<br>
 python sentiment_analysis.py<br>
 
 <b>Note:</b> Before running the script, ensure you have the amazon_product_reviews.csv file in the same directory or update the script with the correct path to your dataset.<br>
