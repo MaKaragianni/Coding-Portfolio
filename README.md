@@ -76,12 +76,7 @@ To install Python, visit [python.org](python.org). For Jupyter Notebook, you can
 git clone https://github.com/MaKaragianni/Portfolio.git
 - Navigate to the project directory:<br>
 cd Portfolio
-- Install required dependencies (if applicable):<br>
-pip install -r requirements.txt
-- pip install spacy
-- pip install textblob
-- python -m textblob.download_corpora
-- python -m spacy download en_core_web_lg<br>
+- Install required prerequisites (if applicable)
 
 <b><ins>Usage</ins></b><br>
 <b>"UniBuddy Chatbox Program" and "Holiday Cost Calculator"</b><br>
@@ -107,7 +102,12 @@ python Library_database.py<br>
 <b>"Sentiment Analysis of Amazon Product Reviews"</b><br>
 - Ensure you have installed all required dependencies as mentioned in the Installation section.
 - Navigate to the directory containing sentiment_analysis.py.
-- Run the script with Python:<br>
+- Install:
+  - pip install spacy
+  - pip install textblob
+  - python -m textblob.download_corpora
+  - python -m spacy download en_core_web_lg<br>
+  - Run the script with Python:<br>
 python sentiment_analysis.py<br>
 
 <b>Note:</b> Before running the script, ensure you have the amazon_product_reviews.csv file in the same directory or update the script with the correct path to your dataset.<br>
