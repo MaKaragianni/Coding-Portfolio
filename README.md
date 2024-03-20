@@ -8,6 +8,7 @@ Welcome to my GitHub portfolio! This repository is a collection of my personal p
   4. Life Expectancy Analysis and Prediction
   5. Simple Linear Regression Example
   6. Enhanced Library System
+  7. Sentiment Analysis of Amazon Product Reviews
 - Installation
 - Usage
 - Credits<br>
@@ -51,6 +52,9 @@ Utilizing an in-memory database for demonstration purposes, this system showcase
 Key features include the ability to set up a database schema, perform CRUD (Create, Read, Update, Delete) operations and manage book loans with due dates calculated using the datetime module.
 This project highlights skills in database management, object-oriented programming and the integration of Python with SQL to create functional and practical applications.<br>
 
+<b>7. Sentiment Analysis of Amazon Product Reviews:</b> <br>
+<b>Description:</b> This project utilises Natural Language Processing (NLP) to perform sentiment analysis on Amazon product reviews. The aim is to classify reviews into positive, negative or neutral categories, providing valuable insights into customer sentiment regarding Amazon products. The project involves data preprocessing, sentiment analysis using Python, Pandas, spaCy, TextBlob and Jupyter Notebook as well as evaluation of model performance with insights into its strengths and limitations. The analysis (...Sentiment Analysis Report.docx) is based on a dataset comprising a wide range of information related to Amazon product reviews.<br>
+
 <b><ins>Installation</ins></b><br>
 <ins>Prerequisites</ins><br>
 - Python 3.6 or higher
@@ -61,7 +65,9 @@ This project highlights skills in database management, object-oriented programmi
     - matplotlib
     - seaborn
     - scikit-learn
-    - sqlite3<br>
+    - sqlite3
+    - spaCy
+    - TextBlob<br>
     
 To install Python, visit [python.org](python.org). For Jupyter Notebook, you can install it via pip with <b>pip install notebook</b>.<br>
 
@@ -71,7 +77,11 @@ git clone https://github.com/MaKaragianni/Portfolio.git
 - Navigate to the project directory:<br>
 cd Portfolio
 - Install required dependencies (if applicable):<br>
-pip install -r requirements.txt<br>
+pip install -r requirements.txt
+- pip install spacy
+- pip install textblob
+- python -m textblob.download_corpora
+- python -m spacy download en_core_web_lg<br>
 
 <b><ins>Usage</ins></b><br>
 <b>"UniBuddy Chatbox Program" and "Holiday Cost Calculator"</b><br>
@@ -93,6 +103,14 @@ jupyter notebook<br>
 - Navigate to the directory containing <b>"Library_database.py"</b>.<br>
 - Execute the script:<br>
 python Library_database.py<br>
+
+<br>"Sentiment Analysis of Amazon Product Reviews"</b><br>
+- Ensure you have installed all required dependencies as mentioned in the Installation section.
+- Navigate to the directory containing sentiment_analysis.py.
+- Run the script with Python:<br>
+python sentiment_analysis.py<br>
+
+<b>Note:</b> Before running the script, ensure you have the amazon_product_reviews.csv file in the same directory or update the script with the correct path to your dataset.<br>
 
 <b><ins>Credits</ins></b><br>
 This portfolio is a compilation of projects developed by me, Maria Karagianni.
