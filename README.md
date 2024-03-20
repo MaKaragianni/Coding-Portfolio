@@ -104,7 +104,7 @@ jupyter notebook<br>
 - Execute the script:<br>
 python Library_database.py<br>
 
-<br>"Sentiment Analysis of Amazon Product Reviews"</b><br>
+<b>"Sentiment Analysis of Amazon Product Reviews"</b><br>
 - Ensure you have installed all required dependencies as mentioned in the Installation section.
 - Navigate to the directory containing sentiment_analysis.py.
 - Run the script with Python:<br>
